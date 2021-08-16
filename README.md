@@ -1,12 +1,5 @@
 ### LinkedIn-Clone with REACT.JS (with Redux & Firebase).
 
-
-<!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
-*** an issue with the tag "enhancement".
--->
-
 ## About the Project
 
 The <b>LinkedIn-clone</b> web application presents a custom LinkedIn-clone.
@@ -99,8 +92,15 @@ This project was built using these technologies.
 
 -   Might add comment section on posts
 -   Mobile responsiveness
--   Might add some more new features.
+-   Might add some new features.
 
 ### Show your support
 
 If you've read this far....give us a ⭐️!
+
+
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+-->
