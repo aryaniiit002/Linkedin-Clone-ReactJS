@@ -1,0 +1,96 @@
+.container_class {
+    flex: 0.2;
+    position: sticky;
+    height: fit-content;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+}
+
+.widgets {
+    background-color: white;
+    border: 1px solid lightgray;
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+    border-radius: 13px;
+}
+
+.widget_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.widget_header>h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.widget_article {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.widget_article:hover {
+    background-color: whitesmoke;
+}
+
+.widgets_articleleft {
+    color: #0177b7;
+    margin-right: 5px;
+}
+
+.widgets_articleleft>.MuiSvgIcon-root {
+    font-size: 15px;
+}
+
+.widgets_articleright {
+    flex: 1;
+}
+
+.widgets_articleright>h5 {
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.widgets_articleright>p {
+    font-size: 15px;
+    color: gray;
+    font-weight: 3000;
+}
+
+.dropdown-btn:hover {
+    cursor: pointer;
+    background-color: rgb(224, 222, 222);
+}
+
+.dropdown_span {
+    flex: 0.7;
+    margin-top: 5px;
+    font-weight: 400;
+    padding-left: 30px;
+    color: gray;
+    position: absolute;
+    font-size: 18px;
+}
+
+.dropdown_p {
+    flex: 0.3;
+    padding-left: 125px;
+    font-weight: 400;
+    color: gray;
+}
+
+.widget-bottom {
+    font-size: 23px;
+    margin: 15px;
+    padding-top: 8px!important;
+    font-weight: 40px;
+    text-align: center;
+    margin-top: -1px;
+    line-height: 1.42857;
+}
+
+.widget-bottom:hover {
+    background-color: rgb(224, 224, 224);
+}

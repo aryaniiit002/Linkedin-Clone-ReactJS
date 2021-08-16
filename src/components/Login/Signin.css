@@ -1,0 +1,135 @@
+.login {
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin-bottom: 4%;
+}
+
+.login>h1 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 1.8rem;
+    line-height: 1.25;
+    font-weight: 367;
+    line-height: 1.33333;
+}
+
+.login>h4 {
+    padding-bottom: 24px;
+    font-size: 1.3rem;
+    line-height: 1.75;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.login-img {
+    object-fit: contain;
+    height: 75px;
+}
+
+.login>form {
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 360px;
+    max-width: 600px;
+    padding: 39px 20px;
+    background-color: #fff;
+    padding-top: 24px;
+    padding-bottom: 15px;
+    margin-top: 6px;
+}
+
+.login>form>label {
+    font-size: 0.75rem;
+    line-height: 1.46;
+    font-weight: 410;
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+}
+
+.login>form>input {
+    height: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+
+.link_button {
+    background-color: #0a66c2;
+    width: 360px;
+    height: 48px;
+    border-radius: 24px;
+    margin-top: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.0rem;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////*/
+
+.google_button {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    max-width: 600px;
+    padding: 39px 20px;
+    background-color: #fff;
+    padding-top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.google_button>span {
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 16px;
+    font-weight: 310;
+}
+
+.google_button>button {
+    background-color: #fff;
+    height: 48px;
+    border-radius: 24px;
+    margin-top: 3.5px;
+    font-weight: 400;
+    color: #0a66c2;
+    cursor: pointer;
+    font-size: 1.0rem;
+    padding-left: 36px;
+}
+
+.google_button>button>img {
+    position: absolute;
+    transform: translateX(-76%);
+}
+
+.login_register {
+    color: #0177b7;
+    cursor: pointer;
+}
+
+.login>p {
+    font-size: 1rem;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.login>p>a {
+    text-decoration: none;
+    font-weight: 430;
+    background-color: transparent;
+    border: 0;
+    color: #0073b1;
+}

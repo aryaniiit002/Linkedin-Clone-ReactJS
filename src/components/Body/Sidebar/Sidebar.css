@@ -1,0 +1,215 @@
+.sidebar {
+    position: sticky;
+    flex: 0.2;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+    /* font-size: .75rem; */
+}
+
+
+/* @media(max-width:998px) {
+    .sidebar {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px) {
+    .sidebar {
+        font-size: 45%;
+    }
+} */
+
+.sidebar_avatar {
+    margin-bottom: 10px;
+}
+
+.sidebar_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.sidebar_top>img {
+    margin-bottom: -20px;
+    height: 60px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.sidebar_top>h4 {
+    color: gray;
+    font-size: 12px;
+}
+
+.sidebar_top>h2 {
+    font-size: 18px;
+}
+
+.sidebar_stats {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sidebar_stat {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar_stat:hover {
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.sidebar_stat>p {
+    color: gray;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.sidebar_stats_premium {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sidebar_stats_premium:hover {
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.sidebar-stat-premium {
+    margin-top: 10px;
+    display: block;
+    touch-action: manipulation;
+    text-align: left !important;
+}
+
+.sidebar-stat-premium:hover {
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.sidebar-stat-premium>h3 {
+    margin-bottom: -16px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 530;
+}
+
+.premium-stat>span {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.premium-stat>span:hover {
+    color: #0a66c2;
+}
+
+.stat_number {
+    font-weight: bold;
+    color: #0a66c2 !important;
+}
+
+.sidebar_bottom {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticfky;
+    top: 0;
+}
+
+.sidebar_bottom>p {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.icon_hover:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 1px rgb(154, 167, 177);
+    border-radius: 20px;
+    background-color: rgb(184, 199, 211);
+}
+
+.dropdown-item>a>span {
+    font-size: 14.5px;
+    padding-bottom: 10px;
+}
+
+.dropdown-item>a>span:hover {
+    color: #0a66c2;
+    text-decoration-line: underline;
+}
+
+.recentItem {
+    display: flex;
+    color: gray;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.recentItem:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #000;
+}
+
+.sidebar_hash {
+    margin-right: 8px;
+    margin-left: 10px;
+    font-size: 24px;
+    color: #000;
+}
+
+.recentItem>p {
+    font-size: 19px;
+}
+
+.sidebar_bottom_discover {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+
+.sidebar_bottom_discover>p {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 450;
+    color: rgb(136, 135, 135);
+}
+
+.sidebar_bottom_discover:hover {
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+}

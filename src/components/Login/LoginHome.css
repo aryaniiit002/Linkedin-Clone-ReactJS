@@ -1,0 +1,138 @@
+    .container {
+        padding: 0px;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+        position: absolute;
+    }
+    
+    .nav {
+        display: flex;
+        width: 1370px;
+        max-width: 1500px;
+        margin: auto;
+        padding: 12px 0 16px;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    
+    .nav-button-join {
+        color: rgba(0, 0, 0, 0.6);
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 47px;
+        padding: 0 8px;
+        margin-right: 14px;
+    }
+    
+    .nav-button-join:hover {
+        background-color: rgba(17, 2, 2, 0.144);
+    }
+    
+    .nav-button-signin {
+        border-color: #0a66c2;
+        border-radius: 24px;
+        cursor: pointer;
+        transition-duration: 167ms;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 40px;
+        padding: 3px 31px;
+        color: #0a66c2;
+        background-color: #fff;
+    }
+    
+    .nav-button-signin:hover {
+        box-shadow: inset 0 0 0 1px #0a66c2;
+        background-color: rgba(63, 92, 218, 0.15);
+        color: #0a66c2;
+    }
+    
+    .section {
+        display: flex;
+        align-content: flex-start;
+        min-height: 700px;
+        padding-bottom: 138px;
+        padding-top: 40px;
+        position: absolute;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1128px;
+        align-items: center;
+        margin: auto;
+        align-items: center;
+        flex-flow: column;
+        min-height: 0;
+    }
+    
+    .hero {
+        width: 100%;
+    }
+    
+    .hero>h1 {
+        width: 50%;
+        font-size: 77px;
+        color: #2977c9;
+        font-weight: 700;
+        line-height: 80px;
+    }
+    
+    .hero>img {
+        width: 966px;
+        height: 900px;
+        position: absolute;
+        bottom: -2px;
+        left: 50%;
+        top: 13%;
+    }
+    
+    .intent-module {
+        width: 106%;
+        margin-top: 80px;
+    }
+    
+    .intent-module>ul>a {
+        text-decoration: none;
+        width: 43%;
+        margin-bottom: 16px;
+        font-size: 1.5rem;
+        line-height: 1.4;
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.9);
+        padding: 16px 16px;
+        border-radius: 5px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        min-height: 56px;
+        -webkit-box-shadow: 0px -1px 1px rgb(0 0 0 / 8%), 1px 0px 1px rgb(0 0 0 / 8%), -1px 0px 1px rgb(0 0 0 / 8%), 0px 1px 1px rgb(0 0 0 / 8%);
+    }
+    
+    .intent-module>ul>a:hover {
+        box-shadow: 0px -1px 1px rgb(0 0 0 / 8%), 1px 0px 1px rgb(0 0 0 / 8%), -1px 0px 1px rgb(0 0 0 / 50%), 0px 1px 1px rgb(0 0 0/ 80%);
+    }
+    
+    .intent-module>button {
+        width: 50%;
+        background-color: #fff;
+        margin-top: 80px;
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: 300;
+        border: 2px solid rgba(3, 15, 85, 0.322);
+        display: flex;
+        justify-content: center;
+        color: rgba(17, 19, 104, 0.616);
+        padding: 16px 16px;
+        border-radius: 28px;
+        display: flex;
+        align-items: center;
+        min-height: 56px;
+    }
+    
+    .intent-module>button:hover {
+        background-color: rgba(17, 2, 2, 0.25);
+        color: rgba(8, 2, 2, 0.75);
+    }

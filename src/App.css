@@ -1,0 +1,19 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f2ef;
+}
+
+.app_body {
+    display: flex;
+    width: 90%;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+[data-theme="dark"] {
+    background-color: #3F3F3F;
+    /* color: #fff; */
+}

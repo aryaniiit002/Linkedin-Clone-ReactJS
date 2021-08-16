@@ -1,0 +1,86 @@
+.post {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.post_header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.postInfo {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.user-desc>h2 {
+    font-size: 16px;
+}
+
+.user-desc>p {
+    font-size: 13px;
+    color: gray;
+}
+
+.delete-dropdown:hover {
+    cursor: pointer;
+    color: #0a66c2;
+}
+
+.dropdown-delete-postitem>a>span {
+    font-size: 14.5px;
+    padding-bottom: 10px;
+}
+
+.dropdown-delete-post>a>span:hover {
+    color: #0a66c2;
+    cursor: pointer;
+}
+
+.post_buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.post_body {
+    overflow-wrap: anywhere;
+}
+
+.social_count {
+    line-height: 1.3;
+    display: flex;
+    align-items: flex-start;
+    overflow: auto;
+    margin: 0 16px;
+    padding: 8px 0;
+    border-bottom: 1px solid #e9efdf;
+    color: rgba(0, 0, 0, 0.6);
+    list-style: none;
+    margin-top: 7px;
+}
+
+.social_count>li {
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+.social_count>li>button {
+    display: flex;
+    border: none;
+    color: rgba(0, 0, 0, 0.6);
+    background: transparent;
+    cursor: pointer;
+}
+
+.active-icon {
+    color: #0a66c2;
+    font-weight: 600;
+}
+
+.active-h4 {
+    color: #0a66c2;
+}
