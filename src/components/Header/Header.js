@@ -27,7 +27,7 @@ function Header(props) {
 	return (
 		<div className="header">
 			<div className="header__left">
-				<img src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg" alt="logos" />
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" alt="logos" />
 				<div className="header__search">
 					<SearchIcon />
 					<input placeholder="Search" type="text" />
